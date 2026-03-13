@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+
+# Build / output
+frontend/dist/
+frontend/.angular/
+backend/**/bin/
+backend/**/obj/
+backend/**/out/
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET
+*.dll
+*.pdb
+*.exe
+*.nupkg
+*.log
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# User-specific
+*.rsuser
+*.userprefs
+
+# Angular
+frontend/.angular/cache/
+
+# Environment / secrets (do not commit)
+.env
+.env.local
+.env.*.local
+**/appsettings.Development.json
+**/secrets.json
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Test / coverage
+coverage/
+.nyc_output/
+*.lcov
