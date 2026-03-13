@@ -8,6 +8,7 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
   template: `
     <nav class="navbar">
+      <a routerLink="/home" routerLinkActive="active">Home</a>
       <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
       <a routerLink="/recipes" routerLinkActive="active">Recipes</a>
       <a routerLink="/pantry" routerLinkActive="active">Pantry</a>
